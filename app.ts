@@ -72,3 +72,10 @@ const myHobbies = ["Coding", "Gaming"];
 // const hobby2 = myHobbies[1];
 const [hobby1, hobby2] = myHobbies;
 console.log(hobby1, hobby2);
+
+
+const userData = {userName: "Drake", age: 20};
+// const userName = userData.userName;
+// const age = userData.age;
+const {userName: myName, age: myAge} = userData;
+console.log(myName, myAge);
