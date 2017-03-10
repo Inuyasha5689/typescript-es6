@@ -59,3 +59,8 @@ console.log("Rest & Spread");
 const numbers = [1 ,10 , 99, -5];
 console.log(Math.max(33,99, 10, -3));
 console.log(Math.max(...numbers));
+
+function makeArray(name: string, ...args: number[]) {
+    return args;
+}
+console.log(makeArray("Max", 1, 2, 6));
