@@ -79,3 +79,11 @@ const userData = {userName: "Drake", age: 20};
 // const age = userData.age;
 const {userName: myName, age: myAge} = userData;
 console.log(myName, myAge);
+
+// Template Literals
+const userName = "Drake";
+// const greeting = "Hello, I'm" + userName + ", I'm so cool!";
+const greeting = `This is a heading!
+I'm ${userName}.
+This is cool!`;
+console.log(greeting);
